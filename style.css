@@ -1,0 +1,91 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+   
+    background-color: pink;
+    font-family:fantasy;
+    
+}
+body h1,p{
+    color: pink;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(219, 11, 11);
+    color: rgb(107, 160, 47);
+}
+
+.navbar .navbar-nav .nav-link:active{
+    background-color: rgb(26, 29, 175);
+    color: rgb(166, 180, 34);
+    font-weight: bold;
+}
+
+@media(max-width:756px) {
+}
+
+.d-block{
+    display: unset !important;
+}
+
+.carousel-item{
+    text-align: center;
+}
+.index .footer {
+    text-align: center;
+    padding: 3px;
+    background-color:black;
+    color:black;
+  }
+
+.contacts body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:aliceblue;
+  padding: 20px;
+}
+
+.f_{
+    font-size: 20pt;
+}
+
+.imgDim{
+    width:100%;
+}
